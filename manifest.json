@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "File Upload to Chat",
+    "version": "1.0",
+    "description": "Uploads file content to OpenAI chat.",
+    "permissions": [
+        "activeTab",
+        "https://chat.openai.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://chat.openai.com/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
