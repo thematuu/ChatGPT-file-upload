@@ -4,7 +4,6 @@
     "version": "1.0",
     "description": "Uploads file content to ChatGPT.",
     "permissions": [
-        "activeTab",
         "https://chat.openai.com/*"
     ],
     "content_scripts": [
