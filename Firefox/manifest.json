@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
-    "name": "File Upload to Chat",
+    "name": "File Upload to ChatGPT",
     "version": "1.0",
-    "description": "Uploads file content to OpenAI chat.",
+    "description": "Uploads file content to ChatGPT.",
     "permissions": [
         "activeTab",
         "https://chat.openai.com/*"

@@ -36,7 +36,7 @@ function addButton() {
                 // Create a file input element and trigger the file selection dialog
                 const fileInput = document.createElement('input');
                 fileInput.type = 'file';
-                fileInput.accept = '.txt,.js,.py,.html,.css,.json,.csv,.java,.class,.php,.cpp,.c,.rb,.swift,.go,.ts,.jsx,.tsx,.sh,.pl,.lua,.r,.scala,.vb,.asm,.sass,.scss,.h,.m,.kt,.groovy,.tsv,.yml,.xml,.sql,.dart,.dockerfile,.ini,.bat,.jsx,.tsx';
+                fileInput.accept = '.txt,.js,.py,.html,.css,.json,.csv,.java,.class,.php,.cpp,.c,.rb,.swift,.go,.ts,.jsx,.tsx,.sh,.pl,.lua,.r,.scala,.vb,.asm,.sass,.scss,.h,.m,.kt,.groovy,.tsv,.yml,.xml,.sql,.dart,.dockerfile,.ini,.bat,.jsx,.tsx,.md';
                 fileInput.click();
 
                 // Handle the file selection

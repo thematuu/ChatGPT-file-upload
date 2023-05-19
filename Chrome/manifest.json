@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "File Upload to ChatGPT",
+    "version": "1.0",
+    "description": "Uploads file content to ChatGPT.",
+    "host_permissions": [
+        "https://chat.openai.com/*"
+      ],
+    "content_scripts": [
+        {
+            "matches": [
+                "https://chat.openai.com/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
