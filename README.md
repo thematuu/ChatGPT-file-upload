@@ -11,7 +11,7 @@ This is a browser extension that adds an "Upload File" button to the OpenAI Chat
 
 ### Firefox
 
-1. Download or clone this repository to your local machine.
+1. Download Firefox Folder or clone this repository to your local machine.
 2. Open the Firefox browser and navigate to `about:debugging`.
 3. Click on "This Firefox".
 4. Click on "Load Temporary Add-on...".
@@ -21,7 +21,7 @@ The extension should now be installed and ready for use. Navigate to https://cha
 
 ### Chrome
 
-1. Download or clone this repository to your local machine.
+1. Download Chrome Folder or clone this repository to your local machine.
 2. Open the Chrome browser and navigate to `chrome://extensions`.
 3. Enable the "Developer mode" toggle on the top right corner.
 4. Click on "Load unpacked" and select the extension's directory.
